@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <ul v-if="show">
-      <!-- <li  v-for="index in 10" :key="index" v-if="indexisActive">
+      <!-- <li v-if="index < 5"  v-for="index in 10" :key="index">
         {{index}}        
       </li> -->
     </ul>
@@ -13,6 +13,7 @@ export default {
   name: 'HelloWorld', 
   data(){
     return{
+      index:1,
       show:true,
     }
   },
