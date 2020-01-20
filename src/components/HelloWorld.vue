@@ -1,11 +1,10 @@
 <template>
   <div class="hello">
-    <div v-if="show">
-      <div  v-for="index in 10" :key="index" v-if="show">
-        {{index}}
-        
-      </div>
-    </div>
+    <ul v-if="show">
+      <!-- <li  v-for="index in 10" :key="index" v-if="indexisActive">
+        {{index}}        
+      </li> -->
+    </ul>
   </div>
 </template>
 
